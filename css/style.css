@@ -92,7 +92,7 @@ body {
 
 h2 {
     text-align: center;
-    color: #28a745;
+    color: #e6b458;
 }
 
 form {
@@ -124,7 +124,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #218838;
+    background-color: #d1a95a;
 }
 
 p {
