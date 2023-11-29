@@ -78,6 +78,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 
+<link rel="stylesheet" type="text/css" href="..//css/style.css">
+
+
 </head>
 
 <body>
