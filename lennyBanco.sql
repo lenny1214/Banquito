@@ -16,7 +16,6 @@ CREATE TABLE usuarios (
 );
 
 
-
 CREATE TABLE registro (
 username VARCHAR (255) PRIMARY KEY,
 contraseña VARCHAR (255)
