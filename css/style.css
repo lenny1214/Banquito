@@ -51,14 +51,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #9ce87e; /* Color de fondo gris claro */
+    background-color: 	#FCD0B4; /* Color de fondo gris claro */
   }
 
   .login-container {
-    background-color: rgb(15, 122, 52);
+    background-color: rgb(29, 77, 34);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(14, 73, 22);
     width: 80%;
     max-width: 400px;
   }
