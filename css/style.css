@@ -62,6 +62,15 @@ body {
     width: 80%;
     max-width: 400px;
   }
+
+  .createAcunt-container {
+    background-color: rgb(29, 77, 34);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(14, 73, 22);
+    width: 80%;
+    max-width: 400px;
+  }
 nav {
     background-color: #333;
     overflow: hidden;
@@ -82,7 +91,7 @@ nav a:hover {
 }
 
 body {
-    background-color: #f8f9fa;
+    background-color: #f9bf86;
 }
 
 .container {
