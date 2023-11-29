@@ -91,7 +91,11 @@ nav a:hover {
 }
 
 body {
+<<<<<<< HEAD
     background-color: #f9bf86;
+=======
+    background-color: #fdbd7c;
+>>>>>>> css
 }
 
 .container {
