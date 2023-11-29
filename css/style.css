@@ -1,9 +1,10 @@
 body {
+    height: 100vh;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: #f8f9fa; /* Color de fondo gris claro */
+    background-color: #1670ca; /* Color de fondo gris claro */
   }
 
   .login-container {
@@ -12,6 +13,7 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 80%;
+    max-width: 400px;
   }
 nav {
     background-color: #333;
