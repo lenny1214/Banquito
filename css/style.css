@@ -23,3 +23,70 @@ nav a:hover {
     background-color: #ddd;
     color: black;
 }
+
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #28a745;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: #495057;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    color: #6c757d;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+.error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
