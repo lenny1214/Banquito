@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Escapar las entradas del formulario para evitar inyecciones SQL
     $dni = $_POST['dni'];
-    $nombre = $_POST['nombre'];
+    $nombre = $_POST['nombre_usuario'];
     $apellido = $_POST['apellido'];
     $email = $_POST['email'];
     $fecha_nacimiento = $_POST['fecha_nacimiento'];
@@ -78,9 +78,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> css
+=======
+  <link rel="stylesheet" type="text/css" href="..//css/style.css">
+
+>>>>>>> c0bfe83c1ec4eff106884834f9def6d9f7f1e508
 </head>
 
 <body>
