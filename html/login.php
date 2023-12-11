@@ -18,12 +18,18 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+
+<link rel="stylesheet" type="text/css" href="..//css/style.css">
+
 </head>
 
 <body>
   <header>
     <!-- place navbar here -->
   </header>
+  <div class="container login-container">
+
+  
   <main>
 
   <?php
@@ -74,21 +80,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 
-<h2>Iniciar Sesión</h2>
+<h2 class="text-center">Iniciar Sesión</h2>
     <?php if (isset($error_message)) : ?>
-        <p style="color: red;"><?php echo $error_message; ?></p>
+      <p style="color: red;"><?php echo $error_message; ?></p>
     <?php endif; ?>
     <form method="post" action="">
-        <label for="nombre_usuario">Nombre de Usuario:</label>
-        <input type="text" id="nombre_usuario" name="nombre_usuario" required><br>
+      <div class="mb-3">
+        <label for="nombre_usuario" class="form-label">Nombre de Usuario:</label>
+        <input type="text" class="form-control" id="nombre_usuario" name="nombre_usuario" required>
+      </div>
 
-        <label for="contrasena">Contraseña:</label>
-        <input type="password" id="contrasena" name="contrasena" required><br>
+      <div class="mb-3">
+        <label for="contrasena" class="form-label">Contraseña:</label>
+        <input type="password" class="form-control" id="contrasena" name="contrasena" required>
+      </div>
 
-        <input type="submit" value="Iniciar Sesión">
-        <p>No tienes una cuenta? <a href="crearCuenta.php">Crear cuenta</a></p>
+      <div class="mb-3 text-center">
+        <input type="submit" class="btn btn-primary" value="Iniciar Sesión">
+      </div>
+
+      <p class="text-center">¿No tienes una cuenta? <a href="crearCuenta.php">Crear cuenta</a></p>
     </form>
-
+  </div>
   </main>
   <footer>
     <!-- place footer here -->
